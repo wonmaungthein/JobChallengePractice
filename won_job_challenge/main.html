@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <h1> Won's Local Store </h1>
+  <div>
+    <button id="peaBtn" onClick="addPea()">Add a Pea bag</button>
+    <button id="eggBtn" onClick="addEgg()">Add a Egg dozen</button>
+    <button id="milkBtn" onClick="addMilk()">Add a Milk bottle</button>
+    <button id="beanBtn" onClick="addBean()">Add a Bean can </button>
+  </div>
+  <br>
+  <div>
+    <button id="cancelBtn" onClick="cancelLastItem()">Cancel last item</button>
+    <button id="emptyBtn" onClick="emptyBasket()">Empty Basket</button>
+  </div>
+  <div>
+    <button id="checkoutBtn" onClick="checkout()">Checkout</button>
+  </div>
+  <div>
+    <p id="basket">Items in Basket:</p>
+    <div>
+      <p id="price"> Total Price : </p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
